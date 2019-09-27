@@ -29,6 +29,9 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export BROWSER="firefox"
 export EDITOR="nvim"
 
+TERM=xterm-256color
+COLORTERM=truecolor
+
 #-----------------------------
 # Dircolors
 #-----------------------------
