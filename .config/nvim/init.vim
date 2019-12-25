@@ -42,7 +42,7 @@ set wildignore=*.o,*~,*.pyc
 set ruler
 
 " Spell Check
-set spell
+" set spell
 
 " Height of the command bar
 set cmdheight=2
