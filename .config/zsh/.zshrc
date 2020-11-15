@@ -11,21 +11,6 @@ if [[ -f /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme ]]; then
 fi
 
 #------------------------------
-# Variables
-#------------------------------
-# XDG Base Directory
-export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_CACHE_HOME="$HOME/.cache"
-export XDG_DATA_HOME="$HOME/.local/share"
-
-# Other Variables
-export BROWSER="firefox"
-export EDITOR="nvim"
-
-export TERM=xterm-256color
-export COLORTERM=truecolor
-
-#------------------------------
 # Keybindings
 #------------------------------
 bindkey -v
@@ -52,8 +37,8 @@ SAVEHIST=1000
 # Alias stuff
 #------------------------------
 lias diff='diff --color=auto'
-alias grep='grep --color=auto'
-alias ls="lsd --color=auto"
+alias grep='rg'
+alias ls="lsd"
 alias sudo="sudo "
 alias vim="nvim"
 
